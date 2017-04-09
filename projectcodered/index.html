@@ -10,6 +10,10 @@
 </head>
 <body>
 
+<CENTER>
+<img src="/images/codered_logo.png" alt="Code Red" align="middle" style="width:500px;height:200px;">
+</CENTER>
+
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -18,13 +22,13 @@ while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "projecthenrik") {
-alert('Password Correct');
+alert('Password Correct - Access Granted');
 window.open('www.wikihow.com');
 break;
 } 
 testV+=1;
 var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+prompt('Password Incorrect - Access Denied','Password');
 }
 if (pass1.toLowerCase()!="password" & testV ==3) 
 history.go(-1);
@@ -33,7 +37,7 @@ return " ";
 </SCRIPT>
 <CENTER>
 <FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
+<input type="button" value="Access Code Red" onClick="passWord()">
 </FORM>
 </CENTER>
 
