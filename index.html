@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Login</title>
+<title>PH - Login</title>
 <meta charset="UTF-8">
 
 
@@ -19,7 +19,7 @@ if (this.document.login.pass.value == password) {
   top.location.href="correct.html";
 }
 else {
-  window.alert("Incorrect password, please try again.");
+  window.alert("Incorrect password");
   }
 }
 
@@ -40,13 +40,13 @@ else {
 
 
 <div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
-Enter your password:<br>
+ENTER PASSWORD:<br>
 <form name="login" style="margin: 5px 0px 0px 0px;">
 <input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
 <input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
 </form>
 
-Password = pepper
+PLEASE ENTER A PASSWORD TO CONTINUE
 
 </div>
 
