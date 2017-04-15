@@ -2225,42 +2225,14 @@ span.menu {
 .ph img {
   width: 41%;
 }
-.footer-main a img {
-  width: 29%;
-}
-.footer-main ul li span.fb:hover, .footer-main ul li span.fb.active {
-  background-position: 0px -35px;
-}
-.footer-main ul li span {
-  width: 35px;
-  height: 35px;
-}
-.footer-main ul li span.twit {
-  background-position: -35px 0px;
-}
-.footer-main ul li span.skp {
-  background-position: -70px 0px;
-}
-.footer-main ul li span.twit:hover {
-  background-position: -35px -35px;
-}
-.footer-main ul li span.skp:hover {
-  background-position: -70px -35px;
-}
-.get-top ul li img {
-  width: 55%;
-}
-.footer-main ul li {
-  margin: 0 3px;
-}
-.footer-main ul {
-  margin: 22px 0px 10px 0px;
-}
-.footer-main p {
-  font-size: 13px;
-}
 .footer {
-  padding: 1.5em 0px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
 #toTop {
   width: 40px;
