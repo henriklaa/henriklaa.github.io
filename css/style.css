@@ -18,7 +18,7 @@
 body {
 	margin:0;
 	font-family:Arial, Helvetica, sans-serif;
-	background:url(../images/bg-body.jpg) no-repeat center top #060606;
+	background:url(../images/bg-body2.png) no-repeat center top #060606;
 }
 a {
 	outline:none;
@@ -123,7 +123,7 @@ a img {
 	text-decoration:underline;
 }
 .header div.featured a {
-	background:url(../images/button-view-more.jpg) no-repeat;
+	background:url(../images/button-view-more1.png) no-repeat;
 	display:block;
 	height:36px;
 	width:186px;
@@ -131,7 +131,7 @@ a img {
 	text-indent:-99999px;
 }
 .header div.featured a:hover {
-	background:url(../images/button-view-more-hover.jpg) no-repeat;
+	background:url(../images/button-view-more-hover1.png) no-repeat;
 }
 .header-about {
 	position:static;
