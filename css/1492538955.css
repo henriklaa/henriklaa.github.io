@@ -43,7 +43,7 @@ p {
     margin-right: 150px;
 }
 
-.button {
+#button {
    border: 1px solid #eb4a00;
    background: #fcef00;
    background: -webkit-gradient(linear, left top, left bottom, from(#ff8400), to(#fcef00));
@@ -66,7 +66,7 @@ p {
    text-decoration: none;
    vertical-align: middle;
 }
-.button:hover {
+#button:hover {
    border: 1px solid #ffffff;
    text-shadow: #000000 0 1px 0;
    background: #00d1e0;
@@ -78,7 +78,7 @@ p {
    background-image: -ms-linear-gradient(top, #0083db 0%, #00d1e0 100%);
    color: #fff;
 }
-.button:active {
+#button:active {
    text-shadow: #000000 0 1px 0;
    border: 1px solid #00b500;
    background: #2f8000;
