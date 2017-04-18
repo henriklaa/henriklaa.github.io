@@ -12,44 +12,6 @@ p {
     padding: 10px;
 }
 
-#wrapper {
-    width: 100%;
-    min-width: 1000px;
-    max-width: 2000px;
-    margin: 0 auto;
-}
-
-#header {
-    float: left;
-    height: 75px;
-    width: 100%;
-    background: #FF6633;
-}
-
-#navigation {
-    float: left;
-    height: 40px;
-    width: 100%;
-    background: #FFCC33;
-}
-
-#contentliquid {
-    float: left;
-    width: 100%;
-}
-
-#content {
-    background: #FFFFFF;
-    margin-left: 150px;
-}
-
-#leftcolumn {
-    float: left;
-    background: #CC33FF;
-    width: 150px;
-    margin-left: -100%;
-}
-<style type="text/css">
 .dbutton {
 	-moz-box-shadow:inset 0px 1px 7px 0px #f29c93;
 	-webkit-box-shadow:inset 0px 1px 7px 0px #f29c93;
@@ -93,8 +55,44 @@ p {
 }.dbutton:active {
 	position:relative;
 	top:1px;
-}</style>
-/* This button was generated using CSSButtonGenerator.com */
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 100%;
+    background: #FF6633;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 100%;
+    background: #FFCC33;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: #FFFFFF;
+    margin-left: 150px;
+}
+
+#leftcolumn {
+    float: left;
+    background: #CC33FF;
+    width: 150px;
+    margin-left: -100%;
+}
 }
 #footer {
     height: 40px;
