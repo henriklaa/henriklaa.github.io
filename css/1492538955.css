@@ -12,37 +12,6 @@ p {
     padding: 10px;
 }
 
-#wrapper {
-    width: 100%;
-    min-width: 1000px;
-    max-width: 3000px;
-    margin: 0 auto;
-}
-
-#header {
-    float: left;
-    height: 75px;
-    width: 100%;
-    background: #FF6633;
-}
-
-#navigation {
-    float: left;
-    height: 40px;
-    width: 100%;
-    background: #FFCC33;
-}
-
-#contentliquid {
-    float: left;
-    width: 100%;
-}
-
-#content {
-    background: #FFFFFF;
-    margin-right: 150px;
-}
-
 #button {
    border: 1px solid #eb4a00;
    background: #fcef00;
@@ -89,6 +58,37 @@ p {
    background: -o-linear-gradient(top, #00b515, #2f8000);
    background-image: -ms-linear-gradient(top, #00b515 0%, #2f8000 100%);
    color: #fff;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+#header {
+    float: left;
+    height: 75px;
+    width: 100%;
+    background: #FF6633;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 100%;
+    background: #FFCC33;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: #FFFFFF;
+    margin-right: 150px;
 }
 
 #rightcolumn {
