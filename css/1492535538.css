@@ -49,7 +49,31 @@ p {
     width: 150px;
     margin-left: -100%;
 }
-
+.testbutton {
+  font-family: 'courier new';
+  color: #FFFFFF !important;
+  font-size: 19px;
+  text-shadow: 1px 1px 0px #FF0000;
+  box-shadow: 1px 1px 0px #1300BF;
+  padding: 10px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #DE9009;
+  background: #63B8EE;
+  background: linear-gradient(top,  #EE7802,  #CF4C00);
+  background: -ms-linear-gradient(top,  #EE7802,  #CF4C00);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EE7802), to(#CF4C00));
+  background: -moz-linear-gradient(top,  #EE7802,  #CF4C00);
+}
+.testbutton:hover {
+  color: #000000 !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #CF0000,  #EE7700);
+  background: -ms-linear-gradient(top,  #CF0000,  #EE7700);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CF0000), to(#EE7700));
+  background: -moz-linear-gradient(top,  #CF0000,  #EE7700);
+}
 #footer {
     height: 40px;
     width: 100%;
