@@ -49,7 +49,7 @@ p {
     width: 150px;
     margin-left: -100%;
 }
-.testbutton {
+.button {
   font-family: 'courier new';
   color: #FFFFFF !important;
   font-size: 19px;
@@ -66,7 +66,7 @@ p {
   background: -webkit-gradient(linear, left top, left bottom, from(#EE7802), to(#CF4C00));
   background: -moz-linear-gradient(top,  #EE7802,  #CF4C00);
 }
-.testbutton:hover {
+.button:hover {
   color: #000000 !important;
   background: #468CCF;
   background: linear-gradient(top,  #CF0000,  #EE7700);
